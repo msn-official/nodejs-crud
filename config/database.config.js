@@ -1,6 +1,6 @@
 module.exports = {
-    url : 'mongodb://10.121.2.121:27017/TEST',
-  // url : 'mongodb://127.0.0.1:27017/TRACE',
+    
+   url : 'mongodb://127.0.0.1:27017/TRACE',
    options : this.options
 }
 
