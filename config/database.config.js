@@ -1,7 +1,8 @@
 module.exports = {
    url : 'mongodb://127.0.0.1:27017/DB',
    options : this.options
-}
+} 
+
 
 var options = {
     server: { socketOptions: { keepAlive: 1, connectTimeoutMS: 30000 } },
