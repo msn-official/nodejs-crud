@@ -11,7 +11,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -29,7 +28,7 @@ jobs:
 #    - run: npm test
 
 
-# sonar qube 
+# sonarqube code scanning 
   sonarcloud:
       name: SonarCloud
       runs-on: ubuntu-latest
