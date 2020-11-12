@@ -17,7 +17,6 @@ mongoose.connect(dbConfig.url,{
 });
  
  
-  
 // create express app
 const app = express();
 // parse requests of content-type - application/json
